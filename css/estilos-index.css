@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family:arial;
+	background-color:#b6e7ed;
+}
+
+.container
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+}
+
+ /* Cabecera de la pagina */
+header{
+	margin-bottom: 20px;
+	background: #f6af25;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  padding: 20px;
+}
+
+header h3{
+	color: white;
+	text-shadow: 0px 0px 8px black;
+	font-size: 72px;
+	font-family: acens;
+	text-align: center;
+	width: 100%;
+}
+
+header img{
+	width: 100px;
+	height:100px;
+}
+
+main{
+	padding: 30px 0 0 0;
+	text-align:center;
+	margin: 0 auto;
+	max-width:1280px;
+	background-color:#b6e7ed;
+	border-radius:10px;
+	opacity:0.8;
+	flex-grow: 2;
+}
+main ul{
+	  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main ul li{
+	background-color:beige;
+	font-size:30px;
+	padding:20px;
+  margin: 20px;
+	border-radius:10px;
+	font-family:acens;
+	list-style: none;
+	}
+
+main ul li:hover{
+	background-color: #0099FF;
+	color: #fff;
+	opacity:0.8;
+}
+
+main ul li h2{
+	font-size: 1.4em;
+	color: #000066;
+	margin-bottom: 20px;
+}
+
+
+main ul li img{
+	margin: 30px;
+}
+
+main ul li a {
+	text-decoration:none;
+}
+
+footer p {
+	color:#fff;
+	background:orange;
+	padding: 1em 2em;
+	font-size: 1.3em;
+	line-height: 1.7em;
+	letter-spacing: 0.05em;
+}
